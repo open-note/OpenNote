@@ -20,13 +20,13 @@ schema = {
     'email': {
     	'type': 'string',
     	'minlength': 1,
-    	'maxlength': 255
+    	'maxlength': 255,
+    	'required': True
     },
     'firstname': {
     	'type': 'string',
     	'minlength': 1,
-    	'maxlength': 40,
-    	'required': True
+    	'maxlength': 40
     },
     'lastname': {
     	'type': 'string',
@@ -44,10 +44,12 @@ people = {
     # '/people/<ObjectId>'. We leave it untouched, and we also enable an
     # additional read-only entry point. This way consumers can also perform
     # GET requests at '/people/<lastname>'.
-    'additional_lookup': {
+    
+    ''''additional_lookup': {
         'url': 'regex("[\w]+")',
         'field': 'lastname'
-    },
+    },'''
+    
 
     # We choose to override global cache-control directives for this resource.
     'cache_control': 'max-age=10,must-revalidate',
