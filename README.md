@@ -13,8 +13,8 @@ Installation
 2. Install the following packages:
 
 | Package | Command |
-| ------------- | ------------- |
-|  __python:__         |    pip install python            |
-|  __eve:__            |    pip install eve               |
-|  __flask-boostrap:__ |    pip install flask-bootstrap   |
-|  __mongodb:__        |    pip install mongodb           |
+| :-------------: | ------------- |
+|  __python__         |    pip install python            |
+|  __eve__            |    pip install eve               |
+|  __flask-boostrap__ |    pip install flask-bootstrap   |
+|  __mongodb__        |    pip install mongodb           |
