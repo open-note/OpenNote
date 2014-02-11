@@ -14,7 +14,7 @@ Installation
 
 | Package | Command |
 | ------------- | ------------- |
-|  __python:__       |    pip install python            |
-|  __eve:__          |    pip install eve               |
-|  __flask-boostrap: |    pip install flask-bootstrap   |
-|  __mongodb:__      |    pip install mongodb           |
+|  __python:__         |    pip install python            |
+|  __eve:__            |    pip install eve               |
+|  __flask-boostrap:__ |    pip install flask-bootstrap   |
+|  __mongodb:__        |    pip install mongodb           |
