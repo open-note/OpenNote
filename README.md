@@ -12,7 +12,9 @@ __Installation__
 1. Clone the repo to a local folder
 2. Install the required packages (see requirements.txt)
 
+--------------------------------------
 __MongoDB__
+
 See http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/
 
 --------------------------------------
